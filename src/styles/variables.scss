@@ -1,0 +1,75 @@
+// This is an abstract SASS partial. It should *not* output any CSS rulesets.
+
+// Note: variables partial must be imported prior to importing mixins partial.
+
+// colors
+$white: #ffffff;
+$black: #000000;
+
+$main_green: #007f3f;
+$activeColor: #6082b6;
+$primaryColor: $black;
+
+$primaryBackgroundColor: papayawhip;
+$secondaryBackgroundColor: royalblue;
+
+$backgoundColorDark: #4b4b4b;
+$backgoundColorLight: #b4b4b4;
+
+// $halfOpacity: 0.5;
+
+$light_gray: #b4b4b4;
+$dark_gray: #a7a7a7;
+$taupe: #5d5d67;
+
+// fonts
+// $fontSizeResponsive: calc(2vw + 10px);
+
+$title: 32px;
+$title-line-height: 40px;
+$subtitle: 18px;
+$subtitle-line-height: 26px;
+$paragraph: 14px;
+$paragraph-line-height: 22px;
+
+$font_family: "Fira Sans", sans-serif;
+$special_font: $font_family;
+$header_font: $font_family;
+$paragraph_font: $font_family;
+
+$bold: 700;
+$thick: 500;
+$normal: 400;
+$thin: 300;
+
+// breakpoints
+$breakpoints: (
+  "smaller": 360px,
+  "small": 768px,
+  "medium": 1148px,
+  "large": 1440px,
+  "large-max": 1920px,
+) !default;
+
+// shadows
+$lightBoxShadow: #e9e9e9 0px 5px 10px 0px;
+$mediumBoxShadow: #c0c0c0 0px 5px 10px 0px;
+$btnBoxShadow: #a3a3a3 0px 3px 7px 2px;
+
+// sizes
+$menu_height: 60px;
+$text_spacing: 20px;
+$nav-height-mobile: 80px;
+
+// button height
+$button-height-large: 50px;
+$button-height-medium: 40px;
+$button-height-small: 24px;
+
+// transition
+$transition-timing-function: ease;
+$curtain-transition-duration: 300ms;
+$modal-transition-duration: 300ms;
+$drawer-transition-duration: 600ms;
+$transition-default: $transition-timing-function $curtain-transition-duration;
+$transition-linear: 300ms linear;
